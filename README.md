@@ -1,1 +1,2 @@
 # PlannerHW
+So I think I was able to set up the html and css correctly, but I just wasn't able to think where to start with JavaScript. I set up the bones. I will resubmit I guess. I reached out for additional support. 
