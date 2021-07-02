@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Maurer Day Planner</h1>
+      <p class="lead">Organize Your Day, Organize Your Life!</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row time-block"> 
+          <p class="hour" id='hr1' class=9><b>9am</b></p>
+          <textarea class="description" placeholder='Open Availability' id='txt1' data-index=1></textarea>
+          <button class="btn saveBtn" id='btn1'>Save</button>
+        </div>
+        <div class="row time-block"> 
+          <p class="hour" id='hr2' class=10><b>10am</b></p>
+          <textarea class="description" placeholder='Open Availability' id='txt2' data-index=2></textarea>
+          <button class="btn saveBtn" id='btn2'>Save</button>
+        </div>
+        <div class="row time-block"> 
+          <p class="hour" id='hr3' class=11><b>11am</b></p>
+          <textarea class="description" placeholder='Open Availability' id='txt3' data-index=3></textarea>
+          <button class="btn saveBtn" id='btn3'>Save</button>
+        </div>
+        <div class="row time-block"> 
+          <p class="hour" id='hr4' class=12><b>12pm</b></p>
+          <textarea class="description" placeholder='Open Availability' id='txt4' data-index=4></textarea>
+          <button class="btn saveBtn" id='btn4'>Save</button>
+        </div>
+        <div class="row time-block"> 
+          <p class="hour" id='hr5' class=13><b>1pm </b></p>
+          <textarea class="description"placeholder='Open Availability' id='txt5' data-index=5></textarea>
+          <button class="btn saveBtn" id='btn5'>Save</button>
+        </div>
+        <div class="row time-block"> 
+          <p class="hour" id='hr6' class=14><b>2pm </b></p>
+          <textarea class="description" placeholder='Open Availability' id='txt6' data-index=6></textarea>
+          <button class="btn saveBtn" id='btn6'>Save</button>
+        </div>
+        <div class="row time-block"> 
+          <p class="hour" id='hr7' class=15><b>3pm </b></p>
+          <textarea class="description" placeholder='Open Availability' id='txt7' data-index=7></textarea>
+          <button class="btn saveBtn" id='btn7'>Save</button>
+        </div>
+        <div class="row time-block"> 
+          <p class="hour" id='hr8' class=16><b>4pm </b></p>
+          <textarea class="description" placeholder='Open Availibility' id='txt8' data-index=8></textarea>
+          <button class="btn saveBtn" id='btn8'>Save</button>
+        </div>
+        <div class='row align-content-center'>
+          <button class='btn btn-lg btn-danger' id='delete-all'>Clear Events</button>
+        </div>
+      </div>  
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
